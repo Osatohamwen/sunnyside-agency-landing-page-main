@@ -273,7 +273,7 @@ nav.top-nav-container{
     
 }
 .footer div a{
-    font-size: 3px;
+    font-size: 2px;
     color: hsl(213, 9%, 39%);
     padding: 6px 0 9px 0;
 }
@@ -335,6 +335,9 @@ nav.top-nav-container{
     .content-container-1, .content-container-2,
     .content-container-3{
         padding: 0px;
+    }
+    .footer div a{
+        font-size: 3px;
     }
     
     
