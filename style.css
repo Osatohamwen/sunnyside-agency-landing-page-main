@@ -37,7 +37,7 @@ main{
    background-color: black;
 }
 .container{
-    width: 16%;
+    width: 18%;
     background-color: white;
 }
 .attribution { 
@@ -272,7 +272,7 @@ nav.top-nav-container{
     width: 3px;
     padding: 0px 0 5px  0;
 }
-@media (min-width: 900px){
+@media (min-width: 850px){
     main{
         height: 100vh;
         background-color: white;
