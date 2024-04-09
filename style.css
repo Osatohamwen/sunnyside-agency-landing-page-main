@@ -178,7 +178,7 @@ nav.top-nav-container{
     border-bottom: 2px solid hsl(51, 87%, 76%);
     font-weight: 700;
     font-size: 4px;
-    width: 35px;
+    width: 30px;
     color: hsl(212, 27%, 19%);
     border-bottom-left-radius: 2px;
     border-bottom-right-radius: 2px;
@@ -226,6 +226,9 @@ nav.top-nav-container{
     grid-template-columns: 1fr;
     height: auto;
     padding: 0 10px;
+}
+.content-3 div {
+    align-items: flex-start;
 }
 
 .content-3 img{
@@ -303,6 +306,9 @@ nav.top-nav-container{
     .content-3{
         grid-template-columns: 1fr 1fr 1fr;
         height: 75px;
+    }
+    .content-3 div {
+        align-items: center;
     }
     .content-4{
         grid-template-columns: 1fr 1fr 1fr 1fr;
