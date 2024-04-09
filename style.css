@@ -24,9 +24,6 @@
 .direction-col{
     flex-direction: column;
 }
-.b{
-    border: 1px solid black;
-}
 .barlow{
     font-family: "Barlow", sans-serif;
 
@@ -40,8 +37,7 @@ main{
    background-color: black;
 }
 .container{
-    width: 15%;
-    /* height: fit-content; */
+    width: 16%;
     background-color: white;
 }
 .attribution { 
@@ -140,7 +136,6 @@ nav.top-nav-container{
 {
     width: 100%;
     padding: 15px 0;
-    /* height: auto; */
     font-family: "Fraunces", serif;
 }
 .pad-30{
@@ -173,7 +168,6 @@ nav.top-nav-container{
 .content-container-2 p{
     font-size: 2px;
     color:  hsl(167, 40%, 24%);
-    /* padding: 5px 0; */
 
 }
 .content-container-3 p{
@@ -220,9 +214,6 @@ nav.top-nav-container{
 .bg-img-3 div{
     width: 80%;
 }
-/* .content-2{
-    height: 30px;
-} */
 .client{
     font-size: 3px;
     color: hsl(210, 4%, 67%);
@@ -338,7 +329,5 @@ nav.top-nav-container{
     }
     .footer div a{
         font-size: 3px;
-    }
-    
-    
+    }  
 }
