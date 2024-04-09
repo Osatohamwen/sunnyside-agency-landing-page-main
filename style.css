@@ -49,6 +49,9 @@ main{
 .hamburger img{
     width: 8px;
 }
+.color{
+    color: white;
+}
 .hamburger{
     display: inline-flex;
 }
@@ -227,9 +230,6 @@ nav.top-nav-container{
     height: auto;
     padding: 0 10px;
 }
-.content-3 div {
-    align-items: flex-start;
-}
 
 .content-3 img{
     width: 10px;
@@ -307,9 +307,6 @@ nav.top-nav-container{
         grid-template-columns: 1fr 1fr 1fr;
         height: 75px;
     }
-    .content-3 div {
-        align-items: center;
-    }
     .content-4{
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
@@ -336,4 +333,7 @@ nav.top-nav-container{
     .footer div a{
         font-size: 3px;
     }  
+    .color{
+        color: black;
+    }
 }
