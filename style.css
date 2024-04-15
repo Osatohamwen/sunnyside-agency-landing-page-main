@@ -46,7 +46,7 @@ main{
 .attribution a {
     color: hsl(228, 45%, 44%);
 }
-.hamburger img{
+.hamburger img, .hamburger-close img{
     width: 8px;
 }
 .color{
@@ -54,6 +54,9 @@ main{
 }
 .hamburger{
     display: inline-flex;
+}
+.hamburger-close{
+    display: none;
 }
 header{
     background-image: url("./images/desktop/image-header.jpg");
