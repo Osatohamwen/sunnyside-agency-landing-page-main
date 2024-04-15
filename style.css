@@ -84,7 +84,7 @@ ul,li,a{
 .triangle::after{
     content: '';
     position: absolute;
-    right: 1.5px;
+    right: 1.6px;
     top: -10px;
     width: 0px;
     height: 0px;
