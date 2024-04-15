@@ -14,11 +14,11 @@
   <main class="flex align-center direction-col justify-center">
     <div class="container">
       <header class="flex direction-col ">
-        <div class="top-nav-container flex justify-btw align-center">
+        <div class="top-nav-container  flex justify-btw align-center">
           <div class="logo flex align-center justify-center">
             <img src="./images/logo.svg" alt="">
           </div>
-          <div class="hamburger">
+          <div class="hamburger" id="hamburger">
             <img src="./images/icon-hamburger.svg" alt="">
           </div>
           <nav class="top-navbar flex align-center justify-center">
@@ -29,7 +29,16 @@
               <li><a href="" class="contact">CONTACT</a></li>
             </ul>
           </nav>
+          <nav class="mobile-top-navbar" id="navitems">
+            <ul class="">
+              <li><a href="">About</a></li>
+              <li><a href="">Services</a></li>
+              <li><a href="">Projects</a></li>
+              <li><a href="" class="mobile-contact">CONTACT</a></li>
+            </ul>
+          </nav>
         </div>
+        <div class="triangle" id="triangle"></div>
         <div class=" header-content flex align-center justify-center">
           <h3>WE ARE CREATIVES</h3>
         </div>
@@ -157,5 +166,6 @@
       Coded by <a href="#">Osatohamwen</a>.
     </div>
   </main>
+  <script src="./app.js"></script>
 </body>
 </html>

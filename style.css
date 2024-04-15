@@ -65,7 +65,65 @@ header{
 ul,li,a{
     text-decoration: none;
 }
-nav.top-navbar a{
+.box::after {
+    content: '';
+    position: absolute;
+    top: 50%;
+    right: -10px;
+    width: 0;
+    height: 0;
+    border-top: 10px solid transparent;
+    border-bottom: 10px solid transparent;
+    border-left: 10px solid #f0f0f0;
+  }
+.triangle{
+    display: none;
+    position: relative;
+    /* color: black; */
+}
+.triangle::after{
+    content: '';
+    position: absolute;
+    right: 1.5px;
+    top: -10px;
+    width: 0px;
+    height: 0px;
+    border-left: 12px solid transparent;
+    border-top: 12px solid transparent;
+    border-bottom: 12px solid white;
+}
+.mobile-top-navbar{
+    display: none;
+    position: fixed;
+    top: 22px;
+    right: 41.5%;
+    width: 17%;
+    background-color: white;
+    height: 80px;
+    padding:  5px 0 0 0;
+}
+.mobile-contact{
+    background-color: hsl(51, 100%, 49%);
+    border-radius: 10px;
+    padding: 5px 10px;
+    font-weight: 700;
+    color: hsl(212, 27%, 19%) !important;
+
+}
+.mobile-top-navbar a{
+    color: hsl(198, 62%, 26%);
+    font-weight: 700;
+}
+.mobile-top-navbar ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: white;
+    gap: 10px;
+    padding: 10px;
+}
+nav.top-navbar a, .mobile-top-navbar{
     font-size: 4px;
     color:  hsl(0, 0%, 100%);
     font-family: "Barlow", sans-serif;
